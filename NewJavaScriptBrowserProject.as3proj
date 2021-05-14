@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <output>
+    <movie platform="Flash Player"/>
+    <movie height="600"/>
+    <movie width="800"/>
+    <movie background="#FFFFFF"/>
+    <movie disabled="False"/>
+    <movie version="10"/>
+    <movie input=""/>
+    <movie path="bin-debug/NewJavaScriptBrowserProject.swf"/>
+    <movie fps="60"/>
+  </output>
+  &lt;!-- Other classes to be compiled into your SWF --&gt;
+  <jsOutput>
+    <option path="/Users/marco/Documents/NewJavaScriptBrowserProject"/>
+  </jsOutput>
+  <classpaths>
+    <class path="src"/>
+  </classpaths>
+  <moonshineResourcePaths></moonshineResourcePaths>
+  <moonshineNativeExtensionPaths></moonshineNativeExtensionPaths>
+  <build>
+    <option sourceMap="True"/>
+    <option showDeprecationWarnings="True"/>
+    <option warnings="True"/>
+    <option optimize="False"/>
+    <option showUnusedTypeSelectorWarnings="True"/>
+    <option es="False"/>
+    <option additional=""/>
+    <option antBuildPath="build/build.xml"/>
+    <option verboseStackTraces="False"/>
+    <option loadConfig=""/>
+    <option linkReport=""/>
+    <option customSDK=""/>
+    <option locale=""/>
+    <option strict="True"/>
+    <option benchmark="False"/>
+    <option staticLinkRSL="False"/>
+    <option showActionScriptWarnings="True"/>
+    <option useNetwork="True"/>
+    <option accessible="False"/>
+    <option compilerConstants=""/>
+    <option showBindingWarnings="True"/>
+    <option useResourceBundleMetadata="True"/>
+    <option allowSourcePathOverlap="False"/>
+  </build>
+  <mavenBuild>
+    <option mavenBuildPath="/Users/marco/Documents/NewJavaScriptBrowserProject"/>
+    <option dominoNotesProgram=""/>
+    <option settingsFilePath=""/>
+    <option dominoNotesPlatform=""/>
+    <option commandLine=""/>
+    <actions>
+      <action action="install" actionName="Build"/>
+      <action action="clean package" actionName="Clean and package"/>
+      <action action="clean" actionName="Clean"/>
+      <action action="clean install" actionName="Clean and Build"/>
+      <action action="war:exploded" actionName="Exploded"/>
+    </actions>
+  </mavenBuild>
+  <includeLibraries></includeLibraries>
+  <libraryPaths></libraryPaths>
+  <externalLibraryPaths></externalLibraryPaths>
+  <rslPaths></rslPaths>
+  <intrinsics>
+    <element path="Library/AS3/frameworks/Flex4"/>
+    <element path="Library\AS3\frameworks\Flex4"/>
+  </intrinsics>
+  <library></library>
+  <modules/>
+  <compileTargets>
+    <compile path="src/NewJavaScriptBrowserProject.mxml"/>
+  </compileTargets>
+  <hiddenPaths></hiddenPaths>
+  <preBuildCommand>null</preBuildCommand>
+  <postBuildCommand alwaysRun="False">null</postBuildCommand>
+  <trustSVNCertificate>False</trustSVNCertificate>
+  <options>
+    <option isExportedToExistingSource="False"/>
+    <option testMovieCommand=""/>
+    <option visualEditorExportPath=""/>
+    <option testMovie=""/>
+    <option isPrimeFacesVisualEditor="False"/>
+    <option isRoyale="True"/>
+    <option showHiddenPaths="False"/>
+    <option defaultBuildTargets=""/>
+  </options>
+  <moonshineRunCustomization>
+    <option webBrowser="null"/>
+    <option customUrlToLaunch=""/>
+    <option urlToLaunch="/Users/marco/Documents/NewJavaScriptBrowserProject/bin/js-debug/index.html"/>
+    <option targetPlatform="5"/>
+    <option deviceSimulator="null"/>
+    <option launchMethod="Simulator"/>
+    <option projectType="2"/>
+    <option deviceConnectType="USB"/>
+    <deviceSimulator>null</deviceSimulator>
+    <certAndroid>null</certAndroid>
+    <certIos>null</certIos>
+    <certIosProvisioning>null</certIosProvisioning>
+  </moonshineRunCustomization>
+</project>
